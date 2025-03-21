@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppMidterm.Pages.LoginPage"
+             Title="LoginPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="White"
+             BackgroundImageSource="https://img.freepik.com/free-vector/blue-digital-presentation-banner-with-text-space_1017-27431.jpg?t=st=1742548965~exp=1742552565~hmac=657566461d98972fbb8166ed638aad85ba0b34dc4675337a905408d17b99b842w=1060">
+       <ScrollView>
+              <VerticalStackLayout VerticalOptions="Center">
+                     <Border BackgroundColor="#3572EF"
+                             StrokeThickness="1"
+                             StrokeShape="RoundRectangle 20,20,20,20"
+                             WidthRequest="500"
+                             HeightRequest="600">
+                            <VerticalStackLayout VerticalOptions="Center"
+                                                 HorizontalOptions="Center">
+                                   <Image Source="cs_family.png"
+                                          WidthRequest="100"
+                                          Aspect="AspectFit"
+                                          Margin="0,0,0,20"/>
+
+                                   <Label Text="Welcome to CS Family"
+                                          TextColor="White"
+                                          FontAttributes="Bold"
+                                          HorizontalOptions="Center"
+                                          FontSize="20"
+                                          Margin="0,0,0,20">
+                                   </Label>
+
+                                   <Label Text="Email"
+                                          TextColor="White"
+                                          FontAttributes="Bold"
+                                          FontSize="16"></Label>
+
+                                   <Entry Placeholder="Enter your email"
+                                          AutomationId="UsernameEntry"
+                                          FontSize="16"
+                                          FontAttributes="Bold"
+                                          BackgroundColor="White"
+                                          WidthRequest="350"
+                                          TextColor="#3572EF"
+                                          Margin="0,0,0,20"
+                                          x:Name="email">
+                                   </Entry>
+
+                                   <Label Text="Password"
+                                          TextColor="White"
+                                          FontAttributes="Bold"
+                                          FontSize="16"></Label>
+
+                                   <Entry Placeholder="Enter your password"
+                                          AutomationId="UsernameEntry"
+                                          FontSize="16"
+                                          FontAttributes="Bold"
+                                          IsPassword="True"
+                                          BackgroundColor="White"
+                                          WidthRequest="350"
+                                          TextColor="#3572EF"
+                                          x:Name="pwd"></Entry>
+
+                                   <Button Text="Login"
+                                           Margin="0,50,0,0"
+                                           WidthRequest="350"
+                                           FontSize="16"
+                                           FontAttributes="Bold"
+                                           TextColor="White"
+                                           BackgroundColor="#3572EF"
+                                           BorderColor="White"
+                                           BorderWidth="3"
+                                           Clicked="Button_Clicked"/>
+
+                                   <HorizontalStackLayout HorizontalOptions="Center"
+                                                          Spacing="150"
+                                                          Margin="0,50,0,0">
+                                          <Label Text="Register"
+                                                 TextColor="White"
+                                                 FontAttributes="Bold"
+                                                 FontSize="16"></Label>
+
+                                          <Label Text="Forget Password?"
+                                                 TextColor="White"
+                                                 FontAttributes="Bold"
+                                                 FontSize="16">
+                                                 <Label.GestureRecognizers>
+                                                        <TapGestureRecognizer Tapped="ForgetPasswordTapped">
+                                                        </TapGestureRecognizer>
+                                                 </Label.GestureRecognizers>
+                                          </Label>
+                                   </HorizontalStackLayout>
+                            </VerticalStackLayout>
+                     </Border>
+              </VerticalStackLayout>
+       </ScrollView>
+</ContentPage>
