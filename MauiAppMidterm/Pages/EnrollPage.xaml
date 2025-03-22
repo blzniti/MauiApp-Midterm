@@ -142,7 +142,7 @@
                             WidthRequest="400">
 
                         <VerticalStackLayout HorizontalOptions="Start">
-                            <Label Text="Search"
+                            <Label Text="ค้นหารายวิชา"
                                    TextColor="White"
                                    FontAttributes="Bold"
                                    FontSize="16"
@@ -150,7 +150,7 @@
                             <HorizontalStackLayout VerticalOptions="Center"
                                                    Spacing="5"
                                                    HorizontalOptions="Center">
-                                <Entry Placeholder="Search your subject"
+                                <Entry Placeholder="กรอกรายวิชาที่สนใจ"
                                        AutomationId="UsernameEntry"
                                        FontSize="16"
                                        FontAttributes="Bold"
