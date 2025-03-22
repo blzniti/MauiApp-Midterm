@@ -1,4 +1,11 @@
 is_global = true
+build_property.MvvmToolkitEnableINotifyPropertyChangingSupport = true
+build_property._MvvmToolkitIsUsingWindowsRuntimePack = true
+build_property.CsWinRTComponent = 
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotWarningLevel = 
+build_property.CsWinRTAotWarningLevel = 
 build_property.TargetFramework = net9.0-windows10.0.19041.0
 build_property.TargetPlatformMinVersion = 10.0.17763.0
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -11,13 +18,11 @@ build_property.RootNamespace = MauiAppMidterm
 build_property.ProjectDir = D:\back up\Desktop\Computer Science\3CS\1204433\MauiApp-Midterm\MauiAppMidterm\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.CsWinRTAotOptimizerEnabled = true
 build_property.CsWinRTAotExportsEnabled = 
 build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
 build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
 build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
 build_property.CsWinRTMergeReferencedActivationFactories = 
-build_property.CsWinRTAotWarningLevel = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
@@ -45,6 +50,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiAppMidterm.Pages.EnrollPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\EnrollPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\EnrollPage.xaml
+
+[D:/back up/Desktop/Computer Science/3CS/1204433/MauiApp-Midterm/MauiAppMidterm/Pages/HistoryPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppMidterm.Pages.HistoryPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\HistoryPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\HistoryPage.xaml
 
 [D:/back up/Desktop/Computer Science/3CS/1204433/MauiApp-Midterm/MauiAppMidterm/Pages/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

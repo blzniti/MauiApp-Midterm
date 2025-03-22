@@ -1,3 +1,5 @@
+using MauiAppMidterm.ViewModel;
+
 namespace MauiAppMidterm.Pages;
 
 public partial class LoginPage : ContentPage

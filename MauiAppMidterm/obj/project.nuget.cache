@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Yjw3yS8vFD8=",
+  "dgSpecHash": "BEC1ISY+W7I=",
   "success": true,
   "projectFilePath": "D:\\back up\\Desktop\\Computer Science\\3CS\\1204433\\MauiApp-Midterm\\MauiAppMidterm\\MauiAppMidterm.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ThisPC\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
     "C:\\Users\\ThisPC\\.nuget\\packages\\googlegson\\2.11.0.3\\googlegson.2.11.0.3.nupkg.sha512",
     "C:\\Users\\ThisPC\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0\\microsoft.extensions.configuration.9.0.0.nupkg.sha512",
     "C:\\Users\\ThisPC\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0\\microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",

@@ -1,5 +1,7 @@
 namespace MauiAppMidterm.Pages;
 
+using MauiAppMidterm.ViewModel;
+
 public partial class HomePage : ContentPage
 {
 	public HomePage()
@@ -9,7 +11,16 @@ public partial class HomePage : ContentPage
 
 	private async void Button_Clicked(object sender, EventArgs e)
 	{
-		Console.WriteLine("Email: beeeee");
 		await Navigation.PopAsync();
+	}
+
+	private async void Button_Go_Enroll(object sender, EventArgs e)
+	{
+		await Navigation.PushAsync(new EnrollPage());
+	}
+
+	private async void Button_Go_History(object sender, EventArgs e)
+	{
+		await Navigation.PushAsync(new HistoryPage());
 	}
 }

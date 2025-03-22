@@ -147,6 +147,9 @@
                                          StrokeThickness="10"
                                          WidthRequest="150"
                                          HeightRequest="150"/>
+                                <Ellipse.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="Button_Go_Enroll"/>
+                                </Ellipse.GestureRecognizers>
                                 <Image Source="time_management.png"
                                        Aspect="AspectFill"
                                        WidthRequest="90"
@@ -162,27 +165,6 @@
                         </VerticalStackLayout>
 
 
-                        <VerticalStackLayout Spacing="10">
-                            <Grid WidthRequest="150"
-                                  HeightRequest="150">
-                                <Ellipse Fill="Blue"
-                                         Stroke="GhostWhite"
-                                         StrokeThickness="10"
-                                         WidthRequest="150"
-                                         HeightRequest="150"/>
-                                <Image Source="archive.png"
-                                       Aspect="AspectFill"
-                                       WidthRequest="90"
-                                       HeightRequest="90"
-                                       HorizontalOptions="Center"
-                                       VerticalOptions="Center"/>
-                            </Grid>
-                            <Label Text="ผลการลงทะเบียน"
-                                   FontSize="18"
-                                   FontAttributes="Bold"
-                                   TextColor="#3572EF"
-                                   HorizontalOptions="Center"/>
-                        </VerticalStackLayout>
 
                         <VerticalStackLayout Spacing="10">
                             <Grid WidthRequest="150"
@@ -192,6 +174,9 @@
                                          StrokeThickness="10"
                                          WidthRequest="150"
                                          HeightRequest="150"/>
+                                <Ellipse.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="Button_Go_History"/>
+                                </Ellipse.GestureRecognizers>
                                 <Image Source="floppy_disk.png"
                                        Aspect="AspectFill"
                                        WidthRequest="90"
@@ -200,6 +185,29 @@
                                        VerticalOptions="Center"/>
                             </Grid>
                             <Label Text="ประวัติการลงทะเบียน"
+                                   FontSize="18"
+                                   FontAttributes="Bold"
+                                   TextColor="#3572EF"
+                                   HorizontalOptions="Center"/>
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout Spacing="10">
+                            <Grid WidthRequest="150"
+                                  HeightRequest="150">
+                                <Ellipse Fill="Blue"
+                                         Stroke="GhostWhite"
+                                         StrokeThickness="10"
+                                         WidthRequest="150"
+                                         HeightRequest="150"/>
+
+                                <Image Source="archive.png"
+                                       Aspect="AspectFill"
+                                       WidthRequest="90"
+                                       HeightRequest="90"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center"/>
+                            </Grid>
+                            <Label Text="หลักสูตร"
                                    FontSize="18"
                                    FontAttributes="Bold"
                                    TextColor="#3572EF"
@@ -300,7 +308,7 @@
 
                         <VerticalStackLayout Spacing="10">
                             <Grid WidthRequest="150"
-                                    HeightRequest="150">
+                                  HeightRequest="150">
                                 <!-- สร้างวงกลมด้วย Ellipse -->
                                 <Ellipse Fill="Red"
                                          Stroke="GhostWhite"

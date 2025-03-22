@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using MauiAppMidterm.Pages;
+using MauiAppMidterm.ViewModel;
+using Microsoft.Extensions.Logging;
 
 namespace MauiAppMidterm;
 
