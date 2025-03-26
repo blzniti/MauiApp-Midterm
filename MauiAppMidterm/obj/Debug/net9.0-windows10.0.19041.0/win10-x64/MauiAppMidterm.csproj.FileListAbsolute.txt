@@ -499,3 +499,5 @@ D:\back up\Desktop\Computer Science\3CS\1204433\MauiApp-Midterm\MauiAppMidterm\o
 D:\back up\Desktop\Computer Science\3CS\1204433\MauiApp-Midterm\MauiAppMidterm\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 D:\back up\Desktop\Computer Science\3CS\1204433\MauiApp-Midterm\MauiAppMidterm\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\back up\Desktop\Computer Science\3CS\1204433\MauiApp-Midterm\MauiAppMidterm\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+D:\back up\Desktop\Computer Science\3CS\1204433\MauiApp-Midterm\MauiAppMidterm\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\man.scale-100.png
+D:\back up\Desktop\Computer Science\3CS\1204433\MauiApp-Midterm\MauiAppMidterm\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\man.scale-100.png

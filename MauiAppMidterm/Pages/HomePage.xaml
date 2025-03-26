@@ -177,7 +177,7 @@
                                 <Ellipse.GestureRecognizers>
                                     <TapGestureRecognizer Tapped="Button_Go_History"/>
                                 </Ellipse.GestureRecognizers>
-                                <Image Source="floppy_disk.png"
+                                <Image Source="archive.png"
                                        Aspect="AspectFill"
                                        WidthRequest="90"
                                        HeightRequest="90"
@@ -199,15 +199,17 @@
                                          StrokeThickness="10"
                                          WidthRequest="150"
                                          HeightRequest="150"/>
-
-                                <Image Source="archive.png"
+                                <Ellipse.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="Button_Go_Profile"/>
+                                </Ellipse.GestureRecognizers>
+                                <Image Source="man.png"
                                        Aspect="AspectFill"
                                        WidthRequest="90"
                                        HeightRequest="90"
                                        HorizontalOptions="Center"
                                        VerticalOptions="Center"/>
                             </Grid>
-                            <Label Text="หลักสูตร"
+                            <Label Text="ประวัติส่วนตัว"
                                    FontSize="18"
                                    FontAttributes="Bold"
                                    TextColor="#3572EF"

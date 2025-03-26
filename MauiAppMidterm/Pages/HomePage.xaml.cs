@@ -23,4 +23,9 @@ public partial class HomePage : ContentPage
 	{
 		await Navigation.PushAsync(new HistoryPage());
 	}
+
+	private async void Button_Go_Profile(object sender, EventArgs e)
+	{
+		await Navigation.PushAsync(new ProfilePage());
+	}
 }

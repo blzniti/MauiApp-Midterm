@@ -65,6 +65,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MauiAppMidterm.Pages.Login
 build_metadata.AdditionalFiles.TargetPath = Pages\LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\LoginPage.xaml
 
+[D:/back up/Desktop/Computer Science/3CS/1204433/MauiApp-Midterm/MauiAppMidterm/Pages/ProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppMidterm.Pages.ProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ProfilePage.xaml
+
 [D:/back up/Desktop/Computer Science/3CS/1204433/MauiApp-Midterm/MauiAppMidterm/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiAppMidterm.Resources.Styles.Colors.xaml
